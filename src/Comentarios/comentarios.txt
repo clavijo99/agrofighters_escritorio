@@ -1,0 +1,9 @@
+2020:05:15 -- 11:57  camilo gomez
+
+    cargue de projecto a git
+
+    graficatemperatura 14-
+    
+    -35
+    ningun bug
+.
