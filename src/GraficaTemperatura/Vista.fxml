@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
 <?import java.lang.*?>
 <?import java.net.*?>
 <?import java.util.*?>
@@ -7,11 +9,18 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="jpanel" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GraficaTemperatura.VistaController">
+<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="650.0" styleClass="panel_pantalla" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GraficaTemperatura.VistaController">
     <stylesheets>
         <URL value="@vista.css" />
     </stylesheets>
    <children>
-      <Button layoutX="238.0" layoutY="188.0" mnemonicParsing="false" styleClass="buttoninicio" stylesheets="@vista.css" text="Button" />
+      <LineChart layoutX="14.0" layoutY="6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="626.0" style="-fx-background-color: #09161C;" title="TEMPERATURA">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
    </children>
 </AnchorPane>

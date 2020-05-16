@@ -1,8 +1,14 @@
-.buttoninicio{
-    -fx-background-color: #3584e4;
-    -fx-border-color: #c01c28;
+.panel_pantalla{
+    -fx-background-color: #09161C;
+    -fx-border-color: #99c1f1;
 }
 
-.jpanel{
-    -fx-background-color: #99c1f1;
+.panel_grafica{
+    -fx-border-color: #241f31;
+    -fx-border-radius: 4;
+}
+
+.label_temperatura{
+    -fx-border-color: #e01b24;
+    -fx-border-radius: 4;
 }
