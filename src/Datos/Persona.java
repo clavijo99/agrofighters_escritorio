@@ -1,9 +1,7 @@
-
 package Datos;
 
-
 public abstract class Persona {
-    
+
     private String name;
     private String last_name;
     private String id;
@@ -29,6 +27,14 @@ public abstract class Persona {
         this.phone = phone;
         this.user = user;
         this.password = password;
+    }
+
+    public boolean Registrar() {
+        return true;
+    }
+
+    public boolean Ingresar(){
+     return true;   
     }
 
     public String getName() {
@@ -86,6 +92,5 @@ public abstract class Persona {
     public void setPassword(String password) {
         this.password = password;
     }
-    
-    
+
 }
