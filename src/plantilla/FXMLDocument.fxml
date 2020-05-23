@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.chart.*?>
@@ -9,10 +10,89 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="fondoapp" stylesheets="@../estilos/menu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="fondoapp" stylesheets="@Estilo.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane prefHeight="40.0" prefWidth="900.0" style="-fx-background-color: #000000;" />
-      <Pane layoutY="40.0" prefHeight="560.0" prefWidth="250.0" style="-fx-background-color: #813d9c;" styleClass="fondo" stylesheets="@Estilo.css" />
-      <Pane layoutX="250.0" layoutY="40.0" prefHeight="560.0" prefWidth="650.0" />
+      <VBox layoutX="16.0" layoutY="10.0" prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: #333;">
+         <children>
+            <Label layoutX="3.0" prefHeight="75.0" prefWidth="300.0" style="-fx-background-color: #00A2D3;" text="Admin Pane" textFill="#fcfcfc">
+               <font>
+                  <Font name="Ebrima" size="18.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="300.0">
+               <children>
+                  <TextField maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="181.0" promptText="Search" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Calibri Light" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="300.0">
+               <children>
+                  <Label style="-fx-background-color: transparent;" text="Dashboard" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Light" size="15.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="300.0" styleClass="btns">
+               <children>
+                  <Label style="-fx-background-color: trasparent;" text="Usuarios" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="41.0" prefWidth="300.0" styleClass="btns">
+               <children>
+                  <Label style="-fx-background-color: transparent;" text="Proyectos" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Light" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="316.0" layoutY="10.0" prefHeight="600.0" prefWidth="582.0" style="-fx-background-color: #F7CE6E;" />
    </children>
 </AnchorPane>
