@@ -10,4 +10,14 @@ public class Administrador extends Persona {
         super(name, id, email, phone, user, password);
     }
 
+    @Override
+    public boolean Registrar() {
+        
+        return true;
+    }
+
+    @Override
+    public boolean Ingresar() {
+        return true;
+    }
 }

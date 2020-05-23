@@ -23,4 +23,15 @@ public class Maestro extends Persona {
             JOptionPane.showMessageDialog(null, ite);
     }
     }
+    
+    @Override
+    public boolean Registrar() {
+        return true;
+    }
+
+    @Override
+    public boolean Ingresar() {
+        return true;
+    }
+    
 }
